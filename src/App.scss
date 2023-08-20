@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: auto;
+  height: auto;
+  outline: solid 1px black;
+  text-align: center;
+  margin: 0 auto;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+table {
+  background-color: lightgray;
+  margin: auto;
+
+  thead > tr > th {
+    background-color: aqua;
+    color: #fff;
+  }
+
+  tfoot > tr > td {
+    align-items: center;
+  }
+}
